@@ -9,7 +9,7 @@ public void draw()
 	//sierpinskiUPDOWN(50, 200, 200);
 	//sRect(50, 350, 300);
 }
-public void mouseDragged()//optional
+public void mouseDragged() //optional
 {
 
 }
@@ -40,21 +40,21 @@ public void sierpinski(int x, int y, int len, int col)
 	}
 }
 
-public void sRect(int x, int y, int len)
-{
-	if (len <= 20)
-	{
-		rect(x, y, len, len/2);
-		stroke(5);
-		fill(245);
-	}
-	else
-	{
-		sRect(x , y, len/3);
-		sRect(x+len/3, y, len/3);
-		sRect(x+len/6, y-len/3, len/3);
-	}
-}
+// public void sRect(int x, int y, int len)
+// {
+// 	if (len <= 20)
+// 	{
+// 		rect(x, y, len, len/2);
+// 		stroke(5);
+// 		fill(245);
+// 	}
+// 	else
+// 	{
+// 		sRect(x , y, len/3);
+// 		sRect(x+len/3, y, len/3);
+// 		sRect(x+len/6, y-len/3, len/3);
+// 	}
+// }
 
 // public void sierpinskiUPDOWN(int x, int y, int len) 
 // {
